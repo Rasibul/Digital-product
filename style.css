@@ -69,11 +69,24 @@
 .about-tittle{
     text-align: center;
     padding: 20px;
+    padding-top: 20px;
+    color: white;
+    /* margin-top: 50px; */
 }
 .description-tittle{
     font-size: 30px;
     font-weight: bold;
     padding-bottom: 10px;
+}
+.service-container{
+    display: flex;
+    justify-content:space-around; 
+    padding: 50px;
+   
+   
+}
+.service{
+    background-image: url("./image/background.png"),linear-gradient(45deg,rgb(8,8,8),rgb(53,53,53));
 }
 .box{
     width: 240px;
@@ -88,8 +101,14 @@
     width: 70px;
 }
 .box-btn{
-    background-color: gray;
+    background-color: #1c1b1b;
     margin-top:10px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+.box-btn:hover{
+    background-color: cadetblue;
 }
 .box-title{
     padding: 10px;
@@ -98,13 +117,7 @@
 .box-description{
     padding: 5px;
 }
-.service-container{
-    display: flex;
-    justify-content:space-around; 
-    padding: 20px;
-    background-image: url("./image/background.png"),linear-gradient(45deg,rgb(8,8,8),rgb(53,53,53));
-   
-}
+
 .contact-container{
     display: flex;
     justify-content: space-around;
