@@ -102,5 +102,21 @@
     display: flex;
     justify-content:space-around; 
     padding: 20px;
+    background-image: url("./image/background.png"),linear-gradient(45deg,rgb(8,8,8),rgb(53,53,53));
    
+}
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.list{
+    list-style: none;
+    padding: 10px;
+}
+.style{
+    padding: 10px;
 }
