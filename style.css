@@ -37,6 +37,9 @@
     align-items: center;
     color: white;
     background-image: url("./image/background.png"),linear-gradient(45deg,rgb(8,8,8),rgb(53,53,53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .tittle{
     font-size: 55px;
@@ -56,4 +59,19 @@
 .btn:hover{
    background-color:aquamarine;
    cursor: pointer;
+}
+.about-cointer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.about-tittle{
+    text-align: center;
+    padding: 20px;
+}
+.description-tittle{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
 }
